@@ -92,12 +92,10 @@ class _HomeScreenBodyState extends State<HomeScreenBody> {
                           },
                           color: Colors.blueGrey,
                         ),
-                  Container(
-                    child: const Text(
-                      'Libreria el Buen Pastor',
-                      style: TextStyle(
-                          color: Colors.black, fontWeight: FontWeight.bold),
-                    ),
+                  const Text(
+                    'Libreria el Buen Pastor',
+                    style: TextStyle(
+                        color: Colors.black, fontWeight: FontWeight.bold),
                   )
                 ],
               ),
